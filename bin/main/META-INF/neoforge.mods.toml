@@ -1,4 +1,4 @@
-modLoader="javafxmod"
+modLoader="javafml"
 loaderVersion="[26,)"
 license="All Rights Reserved"
 authors="Example Author"
