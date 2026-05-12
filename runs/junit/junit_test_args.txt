@@ -1,0 +1,6 @@
+--version
+26.1.2.44-beta
+--assetIndex
+asset-index
+--assetsDir
+/Users/austinmoser/.gradle/caches/minecraft/assets
