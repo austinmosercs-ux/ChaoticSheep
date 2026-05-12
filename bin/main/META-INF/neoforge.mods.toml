@@ -1,20 +1,24 @@
 modLoader="javafml"
-loaderVersion="[26,)"
+loaderVersion="[4,)"
 license="All Rights Reserved"
-authors="Example Author"
-displayName="Chaotic Sheep"
 
 [[mods]]
 modId="chaoticsheep"
 version="1.0.0"
 displayName="Chaotic Sheep"
-logoFile="examplelogo.png"
-credits="Created with NeoForge"
-authors="Example Author"
-description='''
-Chaotic Sheep is a mod that adds chaos to your world! 
-Kill a sheep and there's a 1% chance that a wither will spawn.
-Good luck!
-'''
-displayURL="https://example.com"
-logoFile="examplelogo.png"
+authors="Austin Moser"
+description='''Spawns a wither with a 1% chance when you kill a sheep. Good luck.'''
+
+[[dependencies.chaoticsheep]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.chaoticsheep]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2,26.2)"
+ordering="NONE"
+side="BOTH"
